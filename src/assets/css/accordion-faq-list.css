@@ -1,0 +1,16 @@
+.accordion-button:focus {
+  box-shadow: none;
+  border: none;
+}
+
+.accordion-button::after {
+  width: auto;
+  height: auto;
+  content: "+";
+  font-size: 40px;
+  background-image: none;
+  font-weight: 100;
+  color: #1b6ce5;
+  transform: translateY(-4px);
+}
+
